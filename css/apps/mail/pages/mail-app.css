@@ -1,0 +1,18 @@
+@import '../cmps/mail-sidebar.css';
+@import '../cmps/mail-list.css';
+@import '../cmps/mail-preview.css';
+@import '../cmps/mail-preview-mobile.css';
+@import '../cmps/mail-compose.css';
+@import '../cmps/mail-peek.css';
+@import '../cmps/mail-progress.css';
+@import '../cmps/mobile-nav.css';
+@import './mail-details.css';
+
+.mail-app {
+	display: flex;
+	padding: 3px 0;
+}
+
+.container-mobile {
+	width: 100%;
+}

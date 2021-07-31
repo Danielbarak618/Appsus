@@ -1,0 +1,68 @@
+.mail-compose {
+	width: 80%;
+	margin: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3), -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.mail-compose .mail-compose-header {
+	background-color: #3a3a49;
+	padding: 10px;
+}
+
+.mail-compose .mail-compose-header * {
+	color: #fefefe;
+}
+
+.mail-compose label {
+	display: flex;
+	align-items: center;
+	color: #777;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.mail-compose input {
+	width: 100%;
+	padding: 7px;
+	font-size: 1rem;
+}
+
+.mail-compose textarea {
+	width: 100%;
+	height: calc(100% - 10vh - 158px);
+	padding: 7px;
+	font-size: 1rem;
+	resize: none;
+	border: none;
+	outline: none;
+}
+
+.mail-compose .actions {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+.mail-compose .send {
+	padding: 10px 26px;
+	border-radius: 4px;
+	background-color: #007bff;
+	color: #fefefe;
+	font-size: 1rem;
+}
+
+.mail-compose .compose-trash {
+	font-size: 2rem;
+	color: #222;
+}
+
+@media (max-width: 768px) {
+	.mail-compose {
+		width: 100%;
+	}
+	.mail-compose textarea {
+		width: 100%;
+		height: calc(100% - 10vh - 127px);
+	}
+}

@@ -1,0 +1,84 @@
+.add-note {
+  display: flex;
+  justify-content: center;
+  /* background-color: whitesmoke; */
+}
+
+.add-note-btn {
+  border: 1px solid black;
+  width: 39px;
+  border-radius: 5px;
+
+  border: none;
+  font-size: 2rem;
+}
+
+.add-note input {
+  border: none;
+
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2),
+    0px -1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.actions-container {
+  position: absolute;
+  right: 0;
+  top: -3%;
+  margin-right: 11px;
+}
+
+.actions-container button {
+  margin-right: 5px;
+}
+.actions-container button i {
+  font-size: 1rem;
+  color: grey;
+}
+.actions-container button i:hover {
+  color: black;
+}
+
+.add-container {
+  position: relative;
+}
+
+.text-input {
+  padding: 7px;
+  padding-right: 150px;
+  width: 450px;
+  border-radius: 5px 0px 0px 5px;
+  height: 36px;
+}
+
+.title-input {
+  padding: 10px;
+  border-radius: 0px 5px 5px 0px;
+  height: 36px;
+}
+.note-actions-container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .add-note .text-input {
+    max-width: 200px;
+  }
+  .add-note .title-input {
+    max-width: 110px;
+  }
+  .actions-container {
+    max-width: 90px;
+  }
+  .actions-container button {
+    margin-left: 10px;
+  }
+  .add.note-btn {
+    margin-left: 5px;
+  }
+  input {
+    padding: 1px;
+  }
+}

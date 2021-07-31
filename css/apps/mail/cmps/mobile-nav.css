@@ -1,0 +1,12 @@
+.mobile-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 5vh;
+	padding: 0 20px;
+}
+
+.mobile-nav i {
+	font-size: 1.3rem;
+	cursor: pointer;
+}

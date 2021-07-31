@@ -1,0 +1,80 @@
+@import '../cmps/text-note.css';
+@import '../cmps/img-note.css';
+@import '../cmps/video-note.css';
+@import '../cmps/list-note.css';
+@import '../cmps/note-add.css';
+
+.note-container {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-auto-rows: 170px;
+  grid-auto-flow: dense;
+  gap: 9px;
+  text-align: center;
+  /* margin: 10px 5px; */
+}
+
+.main-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 90vh;
+  padding-top: 40px;
+}
+
+.main-content i {
+  color: #b6b6b6;
+}
+.main-content i:hover {
+  color: black;
+}
+
+/* .notes-main {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .notes-main {
+	max-width: 300px;
+} */
+
+.note-actions-container button .pinned {
+  color: rgb(64, 236, 64);
+}
+
+.container {
+  position: relative;
+}
+
+.color-input {
+  position: absolute;
+  height: 18px;
+  width: 20px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  width: 140px;
+}
+
+.note {
+  border-radius: 7px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+}

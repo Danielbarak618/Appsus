@@ -1,0 +1,15 @@
+progress {
+	position: relative;
+	text-align: center;
+	padding: 25px;
+	width: 80%;
+}
+
+progress::after {
+	content: attr(value) '%';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+}

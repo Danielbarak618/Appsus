@@ -1,0 +1,33 @@
+.list-note {
+  border: 1px solid black;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  /* max-width: 300px;
+	height: 150px; */
+  margin-bottom: 5px;
+
+  height: 100%;
+}
+
+.todo-list {
+  list-style: unset;
+  text-align: center;
+}
+
+.list-note li {
+  margin-top: 5px;
+  margin-left: 28px;
+  text-align: left;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.list-note h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

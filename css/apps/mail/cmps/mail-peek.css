@@ -1,0 +1,25 @@
+.mail-peek {
+	padding: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2), -1px -1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mail-peek-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.mail-peek-sender-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.mail-peek-sender-info h4 {
+	margin-right: 7px;
+}
+
+.mail-peek-body {
+	padding: 0 30px;
+}

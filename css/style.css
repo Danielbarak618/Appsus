@@ -1,6 +1,6 @@
 @import './basic/base.css';
 @import './basic/fonts.css';
-@import './basic/helpers.css';
+
 @import './pages/home-page.css';
 @import './cmps/user-msg.css';
 @import './cmps/app-header.css';

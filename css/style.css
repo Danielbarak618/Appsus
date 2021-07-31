@@ -1,0 +1,21 @@
+@import './basic/base.css';
+@import './basic/fonts.css';
+@import './basic/helpers.css';
+@import './pages/home-page.css';
+@import './cmps/user-msg.css';
+@import './cmps/app-header.css';
+@import './cmps/app-header-mobile.css';
+@import './cmps/app-footer.css';
+@import './cmps/app-filter.css';
+@import './apps/mail/pages/mail-app.css';
+@import './apps/keep/pages/keep-app.css';
+@import '../apps/book/css/main.css';
+
+.main-app {
+	/* height: calc(100vh - 120px); */
+	/* display: flex;
+  flex-direction: column; */
+	min-height: calc(100vh - 120px);
+	/* padding: 54px 0; */
+	/* margin-top: 10px; */
+}

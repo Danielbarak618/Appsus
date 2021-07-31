@@ -1,0 +1,69 @@
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 15px;
+	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.main-header nav {
+	display: flex;
+}
+
+.main-header nav a {
+	margin: 0 15px;
+	color: #888;
+}
+.main-header nav a:hover {
+	color: black;
+}
+.main-header nav a.router-link-exact-active {
+	color: black;
+}
+
+.main-header .logo {
+	margin-top: 5px;
+
+	width: 200px;
+	height: 54px;
+}
+
+@media (max-width: 768px) {
+	.main-header {
+		flex-direction: column;
+		position: relative;
+		padding: 15px 15px;
+		overflow: initial;
+	}
+	.main-header nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2), -1px -1px 3px 1px rgba(0, 0, 0, 0.2);
+		flex-wrap: wrap;
+		position: absolute;
+		right: 3px;
+		top: 8.1vh;
+		z-index: 20;
+		background-color: #fff;
+	}
+	.main-header nav a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid black;
+		margin: 0;
+		padding: 9px;
+	}
+	.main-header nav a i {
+		margin-bottom: 3px;
+	}
+}

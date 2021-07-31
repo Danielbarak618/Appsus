@@ -1,0 +1,78 @@
+.home-page .mail,
+.home-page .notes,
+.home-page .books {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.home-page .books {
+	border: none;
+}
+
+.home-page .home-page-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.home-page .home-page-content p {
+	margin-bottom: 20px;
+}
+
+.home-page .home-page-content a {
+	color: #050505;
+	padding: 0.5rem 1.4rem;
+	border-radius: 7px;
+	width: fit-content;
+	border: 2px solid #050505;
+}
+
+.home-page .mail .home-page-content a:hover {
+	border-color: #e71717;
+	color: #e71717;
+}
+.home-page .notes .home-page-content a:hover {
+	border-color: orange;
+	color: orange;
+}
+.home-page .books .home-page-content a:hover {
+	border-color: rgb(41, 42, 56);
+	color: rgb(41, 42, 56);
+}
+
+.home-page .mail h2,
+.home-page .notes h2,
+.home-page .books h2 {
+	font-family: 'Ubuntu-Bold';
+	margin-top: 27px;
+	margin-bottom: 10px;
+}
+
+.home-page .mail h2 {
+	color: #e71717;
+}
+.home-page .notes h2 {
+	color: orange;
+}
+
+.home-page .books h2 {
+	color: rgb(41, 42, 56);
+}
+
+.home-page img {
+	width: 160px;
+	object-fit: contain;
+}
+
+@media (max-width: 768px) {
+	.home-page img {
+		width: 100px;
+	}
+
+	.home-page .mail,
+	.home-page .notes,
+	.home-page .books {
+		padding: 0 18px;
+	}
+}

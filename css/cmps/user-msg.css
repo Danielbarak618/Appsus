@@ -1,0 +1,44 @@
+.user-msg {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 25px;
+  border-radius: 5px;
+  background-color: #fefefe;
+}
+
+.user-msg-content {
+  margin: 0 20px;
+}
+
+.user-msg p {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+.user-msg.success {
+  border: 2px solid #1fb84d;
+}
+
+.user-msg.error {
+  border: 2px solid red;
+}
+
+.user-msg.success button {
+  background-color: #1fb84d;
+}
+
+.user-msg.error button {
+  background-color: red;
+}
+
+.user-msg i.success {
+  color: #1fb84d;
+}
+
+.user-msg i.error {
+  color: red;
+}
